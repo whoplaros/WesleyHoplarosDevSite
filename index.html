@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="dark">
+<html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Wesley Hoplaros Front-End Developer</title>
     <meta name="description" content="Wesley Hoplaros: Front-end developer working on projects As You Wish" />
-		<link rel="stylesheet" href="style/homepage.css" />
+		
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -15,7 +15,14 @@
 			integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
 			crossorigin="anonymous"
 		/>
-		
+    <link rel="stylesheet" href="style/homepage.css" />
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+			crossorigin="anonymous"
+		>
+  </script>
+  <script src="javascript/index.js"></script>
 	</head>
 	<body>
     <nav class="navbar navbar-expand-lg fixed-top">
@@ -38,6 +45,8 @@
 							<a class="nav-link active" aria-current="page" href="index.html"
 								>Home</a
 							>
+						</li><li class="nav-item">
+							<a class="nav-link" href="portfolio.html">Portfolio</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="about.html">About me</a>
@@ -49,13 +58,20 @@
 				</div>
 			</div>
 		</nav>
-    <h1>Front-End Developer</br>Wesley Hoplaros</h1>
-    <script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-			crossorigin="anonymous"
-		>
-  </script>
-  <script src="javascript/index.js"></script>
+    <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="https://asyouwishwebsites.com/wp-content/uploads/2023/10/Studio-portrait-WH-1-straight-on-200x300.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Front-End Developer</br>Wesley Hoplaros</h1>
+        <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+        </div>
+      </div>
+    </div>
+  </div>
   </body>
 </html>
