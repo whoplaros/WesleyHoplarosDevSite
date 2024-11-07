@@ -1,0 +1,28 @@
+:root {
+	--white: #fff;
+	--grey: #b5b2b2;
+	--light-blue: #0075f6;
+	--dark-blue: #0900c3;
+	--off-black: #1d1919;
+}
+
+body {
+	background-color: #000000;
+	font-family: "Noto Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 300;
+	font-style: normal;
+	font-variation-settings: "wdth" 100;
+}
+
+h1 {
+	color: var(--white);
+	font-family: "Noto Serif", serif;
+	font-optical-sizing: auto;
+	font-weight: 100;
+	font-style: normal;
+	font-size: 3em;
+}
+.hero__body-text {
+	color: var(--grey);
+}
