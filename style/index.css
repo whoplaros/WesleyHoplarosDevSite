@@ -6,6 +6,13 @@
 	--off-black: #1d1919;
 }
 
+.nav-link {
+	font-size: 1.25em;
+}
+.navbar-toggler {
+	background-color: var(--light-blue);
+}
+
 body {
 	background-color: #000000;
 	font-family: "Noto Sans", sans-serif;
@@ -22,7 +29,14 @@ h1 {
 	font-weight: 100;
 	font-style: normal;
 	font-size: 3em;
+	line-height: 3em;
 }
 .hero__body-text {
 	color: var(--grey);
+}
+@media only screen and (min-width: 994px) {
+	.hero-image {
+		max-height: 550px;
+		margin-left: 5rem;
+	}
 }
