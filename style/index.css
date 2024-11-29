@@ -22,7 +22,8 @@ body {
 	font-variation-settings: "wdth" 100;
 }
 
-h1 {
+h1,
+h2 {
 	color: var(--white);
 	font-family: "Noto Serif", serif;
 	font-optical-sizing: auto;
@@ -31,12 +32,28 @@ h1 {
 	font-size: 3em;
 	line-height: 3em;
 }
+
 .hero__body-text {
 	color: var(--grey);
 }
+
 @media only screen and (min-width: 994px) {
 	.hero-image {
 		max-height: 550px;
 		margin-left: 5rem;
 	}
+}
+p {
+	margin-top: 3em;
+	margin-bottom: 3em;
+	color: var(--grey);
+}
+.primary-link {
+	padding: 1rem;
+	border-color: 1px var(--grey);
+	color: var(--white);
+	border-radius: 1rem;
+	text-decoration: none;
+}
+.primary-link:hover {
 }
