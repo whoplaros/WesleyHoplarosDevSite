@@ -54,6 +54,32 @@ p {
 image {
 	padding-bottom: 3em;
 }
+.images-container svg {
+	width: 45%;
+}
+
+.images-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	padding-bottom: 1.5rem;
+}
+
+.card svg {
+	width: 10rem;
+	padding-top: 1rem;
+}
+.card img {
+	width: 10rem;
+	padding-top: 1rem;
+}
+.card {
+	justify-content: center;
+}
+.robot {
+	padding-bottom: 1.5rem;
+}
 @media only screen and (min-width: 994px) {
 	.hero-image {
 		max-height: 550px;
