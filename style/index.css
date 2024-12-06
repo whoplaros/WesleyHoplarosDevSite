@@ -80,6 +80,36 @@ image {
 .robot {
 	padding-bottom: 1.5rem;
 }
+
+footer .cta-box {
+	border: 1px var(--light-blue) solid;
+	padding: 1em 1em 1em 1em;
+	margin: 1em;
+}
+footer .email-box {
+	padding: 4em 0;
+}
+footer .email-link {
+	text-decoration: none;
+	color: var(--light-blue);
+	font-size: 1.5em;
+}
+footer .email-link:hover {
+	color: var(--white);
+}
+footer .social-links a {
+	margin: 2em 15px;
+	color: var(--light-blue);
+	background: var(--grey);
+	padding: 0.3em 0.5em;
+	border-radius: 50%;
+	font-size: 1.5em;
+	transition: all 150ms ease-in-out;
+}
+footer .social-links a:hover {
+	color: var(--white);
+	background: var(--dark-blue);
+}
 @media only screen and (min-width: 994px) {
 	.hero-image {
 		max-height: 550px;
@@ -91,5 +121,19 @@ image {
 	}
 	image {
 		padding-bottom: 0;
+	}
+	footer .cta-box {
+		border: 1px var(--light-blue) solid;
+		padding: 1em 10em 1em 5em;
+		margin: 0 5em;
+	}
+	footer .social-links a {
+		margin: 2em 1em;
+		color: var(--light-blue);
+		background: var(--grey);
+		padding: 0.3em 0.5em;
+		border-radius: 50%;
+		font-size: 1.5em;
+		transition: all 150ms ease-in-out;
 	}
 }
