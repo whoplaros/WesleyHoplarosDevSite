@@ -80,7 +80,9 @@ image {
 .robot {
 	padding-bottom: 1.5rem;
 }
-
+footer {
+	margin-top: 5rem;
+}
 footer .cta-box {
 	border: 1px var(--light-blue) solid;
 	padding: 1em 1em 1em 1em;
@@ -99,6 +101,7 @@ footer .email-link:hover {
 }
 footer .social-links a {
 	margin: 2em 15px;
+	text-decoration: none;
 	color: var(--light-blue);
 	background: var(--grey);
 	padding: 0.3em 0.5em;
