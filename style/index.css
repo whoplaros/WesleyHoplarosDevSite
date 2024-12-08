@@ -12,6 +12,14 @@
 .navbar-toggler {
 	background-color: var(--light-blue);
 }
+.img-center {
+	text-align: center;
+	border-radius: 8px;
+	width: 300px;
+	background-color: var(--light-blue);
+	box-shadow: 0 0 0 1px rgba(207, 200, 200, 0.15),
+		0 2px 3px 0 rgba(185, 180, 180, 0.1);
+}
 
 body {
 	background-color: #000000;
@@ -51,14 +59,12 @@ h3 {
 p {
 	color: var(--grey);
 }
-image {
-	padding-bottom: 3em;
-}
-.images-container svg {
+
+.skills-card .images-container svg {
 	width: 45%;
 }
 
-.images-container {
+.skills-card .images-container {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -66,19 +72,35 @@ image {
 	padding-bottom: 1.5rem;
 }
 
-.card svg {
+.skills-card svg {
 	width: 10rem;
 	padding-top: 1rem;
 }
-.card img {
+.skills-card img {
 	width: 10rem;
 	padding-top: 1rem;
 }
-.card {
+.skills-card {
 	justify-content: center;
 }
 .robot {
 	padding-bottom: 1.5rem;
+}
+.card-img-top {
+	height: 250px;
+	object-fit: cover;
+}
+.card {
+	border-color: var(--light-blue);
+}
+.card-body {
+	background-color: var(--off-black);
+}
+.card-title {
+	color: var(--white);
+}
+.card-footer {
+	background-color: var(--off-black);
 }
 footer {
 	margin-top: 5rem;
@@ -122,9 +144,7 @@ footer .social-links a:hover {
 		max-height: 550px;
 		margin-right: 5rem;
 	}
-	image {
-		padding-bottom: 0;
-	}
+
 	footer .cta-box {
 		border: 1px var(--light-blue) solid;
 		padding: 1em 10em 1em 5em;
