@@ -94,6 +94,7 @@ p {
 }
 
 /* portfolio page styling */
+
 .projects-container .card-img-top {
 	height: 250px;
 	object-fit: cover;
