@@ -94,7 +94,10 @@ p {
 }
 
 /* portfolio page styling */
-
+.projects-headers {
+	text-align: left;
+	margin-bottom: 40px;
+}
 .projects-container .card-img-top {
 	height: 250px;
 	object-fit: cover;
@@ -120,6 +123,7 @@ footer .cta-box {
 	border: 1px var(--light-blue) solid;
 	padding: 1em 1em 1em 1em;
 	margin: 1em;
+	text-align: center;
 }
 footer .email-box {
 	padding: 4em 0;
