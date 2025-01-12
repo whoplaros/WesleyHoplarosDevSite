@@ -153,10 +153,6 @@ footer .social-links a:hover {
 
 /* nav bar styling */
 @media only screen and (min-width: 994px) {
-	.hero-image {
-		max-height: 450px;
-		margin-left: 5rem;
-	}
 	.about-image {
 		max-height: 450px;
 		margin-right: 5rem;
